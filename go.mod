@@ -1,5 +1,7 @@
 module github.com/clivern/beaver
 
+go 1.14
+
 require (
 	github.com/BurntSushi/toml v0.3.1 // indirect
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
@@ -17,8 +19,7 @@ require (
 	github.com/onsi/ginkgo v1.8.0 // indirect
 	github.com/onsi/gomega v1.5.0 // indirect
 	github.com/satori/go.uuid v1.2.0
-	github.com/spf13/viper v1.3.2
-	golang.org/x/net v0.0.0-20190313220215-9f648a60d977 // indirect
+	github.com/spf13/viper v1.6.2
 	gopkg.in/go-playground/assert.v1 v1.2.1 // indirect
 	gopkg.in/go-playground/validator.v8 v8.18.2 // indirect
 )
